@@ -12,3 +12,9 @@ def flard(message, nick, mask, notice, chan):
 	if "#sponge" in chan:
 		for i in range(len(lines)):
 			notice(lines[i])
+			
+@hook.command()
+def flardMessage(text, conn, chan):
+	if "#sponge" in chan:
+		for i in range(len(lines)):
+			conn.notice(text, lines[i])
