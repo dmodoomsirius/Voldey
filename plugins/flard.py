@@ -1,5 +1,4 @@
 from cloudbot import hook
-import time
 import re
 
 lines = ['Congratulations for choosing FLARD! You may now experience the incredible joy of FLARD, the','Revolutionary new Wonder Product derived from incredible hard labour!'
